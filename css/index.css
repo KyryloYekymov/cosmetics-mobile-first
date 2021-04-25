@@ -337,11 +337,14 @@ h3 a:hover {
 
 .gift-sets-body {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: white;
 }
 
-.gift-set {
+.giftSet {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -349,8 +352,14 @@ h3 a:hover {
     margin-bottom: 3rem;
 }
 
-.gift-set img {
+.giftSet img {
     width: 75%;
+}
+
+.slider-dots {
+    border-style: solid;
+    border-color: pink;
+    width: 100%;
 }
 
 .video-presentation {
