@@ -69,6 +69,14 @@
     transition: all .3s ease-in-out;
   }
 
+.menu-btn__burger::before {
+    bottom: 15px;
+}
+
+.menu-btn__burger::after {
+    top: 15px;
+}
+
 .menu-btn__burger::before,
 .menu-btn__burger::after {
     content: '';
