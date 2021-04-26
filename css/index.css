@@ -740,7 +740,7 @@ input[type="submit"] {
     flex-direction: column;
     align-items: center;
     font-size: 1.1rem;
-    padding: 1rem auto 2rem auto;
+    padding: 1rem 0 2rem 0;
     background-color: var(--footer-background-color);
     color: var(--text-color-primary-light);
 }
@@ -792,12 +792,12 @@ input[type="submit"] {
 
 .gradient-button {
     background-color: rgb(245, 183, 25);
-    background-image: linear-gradient(to right,rgb(245, 183, 25),rgb(285, 81, 36));
+    background-image: linear-gradient(to right,rgb(245, 183, 25),rgb(245, 81, 36));
 }
 
 .gradient-button:hover {
     background-color: rgb(245, 183, 25);
-    background-image: linear-gradient(to left,rgb(245, 183, 25),rgb(285, 81, 36));
+    background-image: linear-gradient(to left,rgb(245, 183, 25),rgb(245, 81, 36));
 }
 
 /* Media Queries*/
@@ -1052,7 +1052,7 @@ input[type="submit"] {
     .a-review {
         padding-top: 2rem;
         width: 350px;
-        height: 525;
+        height: 525px;
         display: flex;
         justify-content: center;
     }
