@@ -321,7 +321,9 @@ h3 a:hover {
     padding: 2rem 0 2rem 0;
     background-color: var(--background-color-dark);
     color: var(--text-color-primary-light);
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .gift-sets-header {
@@ -337,11 +339,8 @@ h3 a:hover {
 
 .gift-sets-body {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    border-style: solid;
-    border-color: white;
 }
 
 .giftSet {
@@ -354,12 +353,6 @@ h3 a:hover {
 
 .giftSet img {
     width: 75%;
-}
-
-.slider-dots {
-    border-style: solid;
-    border-color: pink;
-    width: 100%;
 }
 
 .video-presentation {
@@ -847,7 +840,7 @@ input[type="submit"] {
         width: 370px;
     }
 
-    .gift-set {
+    .giftSet {
         width: 370px;
     }
 
